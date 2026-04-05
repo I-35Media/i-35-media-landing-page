@@ -1,25 +1,21 @@
-
-                        <!DOCTYPE html>
-                        <html lang="en">
-                        <head>
-                            <meta charset="UTF-8">
-                            <meta name="viewport" content="width=device-width, initial-scale=1.0">
-							<style>
-								body {
-									background-color: white; /* Ensure the iframe has a white background */
-								}
-
-								
-							</style>
-                        </head>
-                        <body>
-                            <!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<style>
+		body {
+			background-color: white;
+		}
+	</style>
+</head>
+<body>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>I-35 Media</title>
-    <!-- High-end Editorial Serif -->
     <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,500;1,300&display=swap" rel="stylesheet">
     <style>
         :root {
@@ -38,11 +34,6 @@
 
         body {
             background-color: var(--bg-deep);
-            /* 
-               A complex, layered background. 
-               Instead of a flat black, we use overlapping radial gradients 
-               in the corners to create a "void" or "nebula" depth.
-            */
             background: 
                 radial-gradient(circle at 0% 0%, #161616 0%, transparent 40%),
                 radial-gradient(circle at 100% 100%, #0f0f0f 0%, transparent 40%),
@@ -59,9 +50,7 @@
             overflow: hidden;
             position: relative;
         }
-
-        /* The Grain Overlay: This is the 'anti-AI' element. 
-           It gives the digital screen a physical, film-like texture. */
+		
         body::before {
             content: "";
             position: fixed;
@@ -75,7 +64,6 @@
             z-index: 10;
         }
 
-        /* Vignette to focus the eye and add mystery */
         .vignette {
             position: fixed;
             top: 0;
@@ -95,7 +83,6 @@
         h1 {
             font-size: clamp(3rem, 12vw, 8.5rem);
             font-weight: 500;
-            /* Tight letter spacing makes the name feel like a single, powerful object */
             letter-gradient: -0.03em;
             letter-spacing: -0.03em;
             line-height: 0.9;
@@ -103,19 +90,17 @@
             opacity: 0;
             transform: translateY(30px);
             animation: reveal 2.5s cubic-bezier(0.22, 1, 0.36, 1) forwards;
-            /* Very subtle shadow to prevent the text from looking "pasted on" */
             text-shadow: 0 20px 40px rgba(0,0,0,0.8);
         }
 
         .tagline {
             font-size: clamp(0.8rem, 2.5vw, 1.2rem);
             font-weight: 300;
-            /* Wide tracking for the tagline creates an elegant, luxury-brand feel */
             letter-spacing: 0.5em;
             text-transform: lowercase;
             color: var(--text-dim);
             opacity: 0;
-            margin-left: -0.5em; /* Offsets the letter-spacing to ensure true centering */
+            margin-left: -0.5em;
             animation: reveal 2.5s cubic-bezier(0.22, 1, 0.36, 1) 0.6s forwards;
             font-style: italic;
         }
@@ -140,10 +125,4 @@
 
 </body>
 </html>
-
-							<script>
-                            	
-							</script>
-                        </body>
-                        </html>
                     
